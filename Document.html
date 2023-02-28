@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    
+    
+<link rel="stylesheet" href="./Document_files/style.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Document_files/css2" rel="stylesheet"></head>
+<body>
+    <header>
+        <h1><img id="header-img" src="./Document_files/plane-151-450598.png">Expedia</h1>
+        <div class="dropdown">
+            <span>More travel</span>
+            <div class="dropdown_content">
+                <a href="http://127.0.0.1:5500/#">Stays</a>
+                <a href="http://127.0.0.1:5500/#">Flights</a>
+                <a href="http://127.0.0.1:5500/#">Cars</a>
+                <a href="http://127.0.0.1:5500/#">Packages</a>
+                <a href="http://127.0.0.1:5500/#">Things to do</a>
+                <a href="http://127.0.0.1:5500/#">Deals</a>
+                <a href="http://127.0.0.1:5500/#">Groups &amp; meetings</a>
+
+            </div>
+        </div>
+        <nav>
+            <a href="http://127.0.0.1:5500/#">English</a>
+            <a href="http://127.0.0.1:5500/#">List your property</a>
+            <a href="http://127.0.0.1:5500/#">Support</a>
+            <a href="http://127.0.0.1:5500/#">Trips</a>
+            <a href="http://127.0.0.1:5500/#"></a>
+            <a href="http://127.0.0.1:5500/#">Sign in</a>
+        </nav>
+    </header>
+    
+        <section class="booking">
+            <nav>
+                <a href="http://127.0.0.1:5500/#">Stays</a>
+                <a href="http://127.0.0.1:5500/#">Flights</a>
+                <a href="http://127.0.0.1:5500/#">Cars</a>
+                <a href="http://127.0.0.1:5500/#">Packages</a>
+                <a href="http://127.0.0.1:5500/#">Things to do</a>
+            </nav>
+            <div class="booking_inputs">
+                <input type="text" name="destination" placeholder="Going to" id="destination">
+                <input type="date" name="check-in" placeholder="27 Jan" id="check-in">
+                <input type="date" name="check-out" placeholder="28 Jan" id="check-out">
+            </div>
+            <div class="booking_checkboxes">
+                <input type="checkbox" id="add-a-flight" value="flight">Add a Flight
+                <input type="checkbox" id="add-a-car" value="car">Add a car
+            </div>
+            <input type="submit" value="Submit">
+        </section>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consectetur ut earum a facere eveniet. Minima, assumenda. Totam numquam dolorum, optio ipsa dolor illum, quasi doloribus laboriosam voluptates itaque eos? Eius maiores pariatur, esse numquam inventore commodi optio consequuntur blanditiis aliquam veniam quia eaque saepe, illo deserunt, repellat cupiditate similique!</p>
+        <img src="http://127.0.0.1:5500/" alt="logo" width="50">;
+        <img src="http://127.0.0.1:5500/" alt="logo" width="100">;
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, facere!</p>
+    </footer>
+    
+<!-- Code injec--></body></html>
